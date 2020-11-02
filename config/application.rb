@@ -1,11 +1,11 @@
 require_relative 'boot'
+# require 'better_errors'
+# require 'binding_of_caller'
+# require 'letter_opener'
 
 require 'rails/all'
 # config/application.rb
-config.assets.initialize_on_precompile = false
-
-heroku buildpacks:add --index 1 heroku/nodejs
-heroku buildpacks:add --index 2 heroku/ruby
+# config.assets.initialize_on_precompile = false
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
